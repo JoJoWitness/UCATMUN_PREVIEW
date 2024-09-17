@@ -40,7 +40,7 @@ body{
 .user_header_band_ph{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #418FDE;
   padding: 20px;
   width: 100%;
