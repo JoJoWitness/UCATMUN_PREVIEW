@@ -5,7 +5,7 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <>
             <Route path="/" >
-              <Route index element={<UserInfo/>} />
+              <Route path="/Delegado/:cedula" element={<UserInfo/>} />
             
             </Route>
         </>
