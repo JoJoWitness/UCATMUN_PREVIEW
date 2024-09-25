@@ -6,7 +6,7 @@ const router = createBrowserRouter(
         <>
             <Route path="/" >
               <Route index element={<UserInfo/>} />
-              <Route path="Sobre_nosotros" element={<></>} />       
+            
             </Route>
         </>
     )
