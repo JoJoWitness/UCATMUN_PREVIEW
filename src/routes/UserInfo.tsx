@@ -232,7 +232,7 @@ export const UserInfo = () =>{
           
 
 
-          <img src={ucatmun} style={{width: "84px", marginTop: "36px"}}/>
+          <img src={ucatmun} style={{width: "84px", marginTop: "36px", minHeight: "84px"}}/>
       
       </div>
      
@@ -262,7 +262,7 @@ const HeaderWithoutPhoto = ({comiteImg,nombre_comite, imageUrl, nombreOficial, n
   return(
     <div className="user_header">
         <div className="user_header_band">
-          <img className='user_header_comitte' src={comiteImg}/>
+          <img className='user_header_comitte' src={comiteImg}  />
           <h1>{nombre_comite}</h1>
         </div>
         <div className='user_header_countryInfo'>
@@ -292,6 +292,8 @@ const HeaderWithPhoto = ({comiteImg, nombre_comite, imageUrl, countryUrl, nombre
   } else if (nombrePai == "Japon"){
     nombrePais = "Japón"
   }
+
+
 
   return(
     <div className="user_header">
